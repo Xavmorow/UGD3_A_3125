@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* Background gambar wajib menyesuaikan ukuran layar  */
+    background-image: url('porto\ 4.jpg'); /* Ganti URL ini dengan gambar latar yang kamu inginkan */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px dashed #ccc;
+    margin: 15px 0;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+    min-height: 18px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Memberikan efek hover pada tombol Sign In  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* Background gambar wajib menyesuaikan ukuran layar  */
+    background-image: url('https://images.unsplash.com/photo-1506744626753-1fa44df14d28?q=80&w=1920'); /* Ganti URL ini dengan gambar latar yang kamu inginkan */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px dashed #ccc;
+    margin: 15px 0;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+    min-height: 18px; /* Agar form tidak bergeser saat error muncul */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Memberikan efek hover pada tombol Sign In  */
+button:hover {
+    background-color: #00b309; 
+}

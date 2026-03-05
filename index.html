@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body style="background-image: url('porto\ 4.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh;"></body>
+    <div class="container"> 
+        <div class="card">
+            <h2 class="title">Form Sign In</h2>
+            <hr class="divider">
+            
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Masukkan Username">
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Masukkan Password">
+                </div>
+                
+                <hr class="divider">
+                
+                <p id="errorMsg" class="error-message"></p>
+                
+                <button type="submit" id="btnSignIn">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+        const usernameInput = document.getElementById('username');
+        const passwordInput = document.getElementById('password');
+        const errorMsg = document.getElementById('errorMsg');
+
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const usernameValue = usernameInput.value.trim();
+            const passwordValue = passwordInput.value.trim();
+
+            if (usernameValue === '' || passwordValue === '') {
+                errorMsg.textContent = 'Username atau Password tidak boleh kosong.';
+            } else {
+                errorMsg.textContent = '';
+                // Ganti dengan username IG kamu
+                window.location.href = 'https://www.instagram.com/Marsel.xavier/';
+            }
+        });
+    </script>
+    </body>
+</html>
